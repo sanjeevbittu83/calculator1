@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.button{
+    width: 75px;
+    height: 50;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    border:none;
+}
+.textview{
+    width: 305px;
+    height: 70px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    background-color:gainsboro;
+}
+.main{
+    width: 327px;
+    height:300px;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50);
+    border: 1px solid gray;
+}
+.number{
+    background-color: white;
+    font-weight: bold;
+}
+.symbol{
+    background-color: rgb(185, 189, 188);
+}
+.gray:hover{
+    background-color:#dfeb42f1;
+
+}
+.blue:hover{
+    background-color:salmon;
+}
