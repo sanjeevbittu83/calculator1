@@ -1,55 +1,40 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>calculator</title>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
 </head>
-
 <body>
-    <div class="main">
-        <form name="myForm">
-            <input type="text" name="textview" class="textview" disabled>
-        </form>
-        <table>
-            <tr>
-                <td><input type="button" class="button symbol blue" value="x^2" onclick="insertOp(x2)" disabled></td>
-                <td><input type="button" class="button symbol blue" value="<-" onclick="insertOp(<-)" disabled></td>
-                <td><input type="button" class="button symbol blue" value="/" onclick="insertOp(/)" disabled></td>
-                <td><input type="button" class="button symbol blue" value="%" onclick="insertOp(%)" disabled></td>
-            </tr>
-            <tr>
-                <td><input type="button" class="button nubmer gray" value="1" onclick="insertNum(1)" disabled></td>
-                <td><input type="button" class="button nubmer gray" value="2" onclick="insertNum(2)" disabled></td>
-                <td><input type="button" class="button nubmer gray" value="3"  onclick="insertNum(3)" disabled></td>
-                <td><input type="button" class="button symbol blue" value="+" onclick="insertOp(+)" disabled></td>
-            </tr>
-            <tr>
-                <td><input type="button" class="button nubmer gray" value="4"  onclick="insertNum(4)" disabled></td>
-                <td><input type="button" class="button nubmer gray" value="5"  onclick="insertNum(5)" disabled></td>
-                <td><input type="button" class="button nubmer gray" value="6"  onclick="insertNum(6)" disabled></td>
-                <td><input type="button" class="button symbol blue" value="-" onclick="insertOp(-)" disabled></td>
-            </tr>
-            <tr>
-                <td><input type="button" class="button nubmer gray" value="7"  onclick="insertNum(7)" disabled></td>
-                <td><input type="button" class="button nubmer gray" value="8"  onclick="insertNum(8)" disabled></td>
-                <td><input type="button" class="button nubmer gray" value="9"  onclick="insertNum(9)" disabled></td>
-                <td><input type="button" class="button symbol blue" value="*" onclick="insertOp(*)" disabled></td>
-            </tr>
-            <tr>
-                <td><input type="button" class="button symbol blue" value="c" onclick="insertOp(c)" disabled></td>
-                <td><input type="button" class="button symbol blue" value="." onclick="insertOp(.)" disabled></td>
-                <td><input type="button" class="button  nubmer gray" value="0" onclick="insertNum(0)" disabled></td>
-                <td><input type="button" class="button symbol blue" value="=" onclick="insertOp(=)" disabled></td>
-            </tr>
-
-
-        </table>
-
-    </div>
-
-<script type="text/javascript" src="index.js"></script>
+	<div id="parent">
+		<div id="container-one">
+			<div class="header">
+				<div id="display">					
+				</div>
+			</div>
+			<div class="body">
+				<div><button class="buttons" id="one"> 1 </button></div>
+				<div><button class="buttons" id="two"> 2 </button></div>
+				<div><button class="buttons" id="three"> 3 </button></div>
+				<div><button class="buttons" id="add"> + </button></div>
+				<div><button class="buttons" id="subtract"> - </button></div>
+				<div><button class="buttons" id="four"> 4 </button></div>
+				<div><button class="buttons" id="five"> 5 </button></div>
+				<div><button class="buttons" id="six"> 6 </button></div>
+				<div><button class="buttons" id="multiply"> * </button></div>
+				<div><button class="buttons" id="divide"> / </button></div>
+				<div><button class="buttons" id="seven"> 7 </button></div>
+				<div><button class="buttons" id="eight"> 8 </button></div>
+				<div><button class="buttons" id="nine"> 9 </button></div>
+				<div><button class="buttons" id="sqrt"> sqrt </button></div>
+				<div><button class="buttons" id="clear"> C </button></div>
+				<div><button class="buttons" id="decimal"> . </button></div>
+				<div><button class="buttons" id="zero"> 0 </button></div>
+				<div><button class="buttons" id="percent"> % </button></div>
+				<div><button class="buttons" id="equals"> = </button></div>
+			</div>
+		</div>		
+	</div>
 </body>
-
+<script type="text/javascript" src="index.js"></script>
 </html>
