@@ -5,11 +5,11 @@ html{
     text-align: center;
 }
 #container-one{
-    height: 40em;
+    height: 55em;
     width: 37em;
     margin: 2% auto;
     display: inline-block;
-    background-color:rgb(158, 127, 127);
+    
     border: none;
 }
 .header{
@@ -21,12 +21,11 @@ html{
     width: 97%;
     height: 90%;
     display: flex;
-
     margin: 2%;
     font-size: 60px;
     background-color: white;
     border:ridge;
-    border-radius: 50px;
+    
 
 }
 .body{
@@ -38,11 +37,13 @@ html{
 }
 .buttons{
     height: 100px;
-    width: 100px;
+    width: 120px;
     background-color:;
-    font-size: 50px;
-    margin: 0.15em;
+    font-size: 50px;   
 }
-#equals{
-    width: 205px;
+#zero{
+    width: 225px;
+}
+button:hover{
+    background-color:rgb(187, 49, 44)
 }
