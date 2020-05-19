@@ -6,7 +6,7 @@ function disp(cur){
 	if(cur == "=")
 		calculate(string);
 	else if(cur == "sqrt")
-		document.querySelector("#display").innerHTML = Math.sqrt(string);
+		document.querySelector("#display").innerHTML = Math.abs(string);
 	else if(cur == "clear")
 		document.querySelector("#display").innerHTML = "";
 	else
